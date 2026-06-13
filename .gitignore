@@ -1,0 +1,26 @@
+# --- Environment & Python ---
+.env
+myenv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# --- Project Data & State ---
+backend/uploads/
+backend/vectorstore/
+.streamlit/
+
+# --- IDE & OS Settings ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Logs & Temp ---
+*.log
+tmp/
